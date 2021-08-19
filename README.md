@@ -1,0 +1,6 @@
+# ME781-Statistical-Machine-Learning-and-Data-Mining-Project
+Class Diagrams: We have imported functions and classes and other subroutines from different well known python libraries (like keras, scikit-learn, etc.) to make our code time efficient and optimized. Those Subroutines are explicitly described in the documentation of those well known python libraries. We also didn’t require to build some class structure, hence, class diagrams are not required.
+Unit Test report: Our model expects 2-D CT Scan of Lung Section as input as also mentioned in the User Manual details. After uploading image to the server:
+Image is pre-processed and centralized as per our model
+Image is Feature Normalized as per our model parameters requirements
+After performing the above two steps, image is sent to further processing for Lung Segmentation and Image Analysis. We perform data pre-processing with a good enough time on our end so that no discrepancies can come in the time of prediction which then successfully passes all testing parameters required in the code testing part. Hence, there isn’t requirement for unit testing in our model as we ONLY input 2-D images in model which can be handled smoothly by the model.
